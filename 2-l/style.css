@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 450px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    display: flex;
+    padding: 40px 125px;
+}
+
+.div {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.l1,
+.l2,
+.l3 {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.l1 {
+    background-color: red;
+}
+
+.l2 {
+    background-color: yellow;
+}
+
+.l3 {
+    background-color: green;
+}
